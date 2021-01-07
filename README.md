@@ -1,6 +1,7 @@
 # syn_cinema
 
 i did not write this script ! credits go to original author : https://github.com/xK3LY/redm_theatre
+for my scripts visit: https://discord.gg/5m4HZucm4u
 i just edited it to my liking
 you must disable vorp_cenima in order to use this script. they both wont run together
 
