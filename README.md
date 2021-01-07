@@ -1,4 +1,7 @@
 # syn_cinema
+
+i did not write this script ! credits go to original author : https://github.com/xK3LY/redm_theatre
+i just edited it to my liking
 you must disable vorp_cenima in order to use this script. they both wont run together
 
 you need to have the job cinema to play the movie
