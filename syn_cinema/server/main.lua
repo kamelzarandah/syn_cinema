@@ -5,9 +5,8 @@ TriggerEvent("getCore",function(core)
 end)
 
 Schedule = {}
-
 RegisterCommand("startshow", function(source, args)
-	local _source = source
+    local _source = source
 	local Character = VorpCore.getUser(_source).getUsedCharacter
 	local job = Character.job
 
@@ -22,8 +21,7 @@ RegisterCommand("startshow", function(source, args)
 	else
 		TriggerClientEvent("vorp:TipRight", _source, Config.Language..Config.job , 50000)
 	end
-end, true)
-
+end)
 RegisterCommand("scheduleshow", function(source, args)
 	local _source = source
 	local Character = VorpCore.getUser(_source).getUsedCharacter
@@ -56,7 +54,8 @@ RegisterCommand("scheduleshow", function(source, args)
 	else
 		TriggerClientEvent("vorp:TipRight", _source, Config.Language..Config.job , 50000)
 	end
-end, true)
+end)
+
 
 LoadSchedule = function()
 	Schedule = LoadResourceFile(GetCurrentResourceName(), "server/schedule.json")
